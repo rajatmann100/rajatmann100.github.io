@@ -40,7 +40,9 @@ new Deck({
       filled: true,
       lineWidthMinPixels: 2,
       getLineColor: [5, 10, 40],
-      getFillColor: [100,100,100]
+      getFillColor: [100,100,100],
+      // beforeId: "India",
+      opacity:0.5
     }),
     new GeoJsonLayer({
       id: 'India',
@@ -50,7 +52,7 @@ new Deck({
       filled: true,
       lineWidthMinPixels: 2,
       getLineColor: [5, 10, 40],
-      getFillColor: [255,255,255]
+      getFillColor: [255,255,255],
     }),
     // new GeoJsonLayer({
     //   id: 'airports',
